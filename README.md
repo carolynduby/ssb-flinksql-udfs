@@ -66,7 +66,7 @@ CREATE TABLE `ssb`.`ssb_default`.`transacts` (
 SQL Stream Builder allows users to leverage Flink's SQL on streams capabilities without writing code. 
 After executing the following steps you will be able to use the UDFs in this github to 
 calculate geohashes and compute distances.  
-1. Build the ssb-flinksql-udfs.jar file containing the User Define Function code.
+1. Download the udf jar from github [releases](https://github.com/carolynduby/ssb-flinksql-udfs/releases).  Alternatively you can build the ssb-flinksql-udfs.jar file containing the User Define Function code.
 ```shell
 git clone https://github.com/carolynduby/ssb-flinksql-udfs.git
 cd ssb-flinksql-udfs
